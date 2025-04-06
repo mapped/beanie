@@ -9,6 +9,7 @@ from beanie.odm.actions import (
     Save,
     SaveChanges,
     Update,
+    Upsert,
     ValidateOnSave,
     after_event,
     before_event,

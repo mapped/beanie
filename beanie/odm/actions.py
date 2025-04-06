@@ -32,6 +32,7 @@ class EventTypes(str, Enum):
     VALIDATE_ON_SAVE = "VALIDATE_ON_SAVE"
     DELETE = "DELETE"
     UPDATE = "UPDATE"
+    UPSERT = "UPSERT"
 
 
 Insert = EventTypes.INSERT
@@ -41,6 +42,7 @@ SaveChanges = EventTypes.SAVE_CHANGES
 ValidateOnSave = EventTypes.VALIDATE_ON_SAVE
 Delete = EventTypes.DELETE
 Update = EventTypes.UPDATE
+Upsert = EventTypes.UPSERT
 
 
 class ActionDirections(str, Enum):  # TODO think about this name
